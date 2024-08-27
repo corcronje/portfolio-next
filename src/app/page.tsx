@@ -1,3 +1,6 @@
+import JobItem from "@/components/JobItem";
+import TechStack from "@/components/TechStack";
+import TeckStackItem from "@/components/TeckStackItem";
 import Image from "next/image";
 
 export default function Home() {
@@ -442,816 +445,531 @@ export default function Home() {
               </span>
               <h2 className="text-2xl">Work experience</h2>
             </div>
-            <div className="css-1hqeloq">
-              <div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">June 2024 - present</span>
-                      <span className="css-i0fbjv">
-                        Senior Fullstack Developer at Independant Contractor
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      Working fulltime in this role, I assume ownership of all
-                      web application development related functions, and work
-                      closely with medical professionals to develop new and
-                      innovating healthcare products and services.
-                    </p>
-                    <p>
-                      In support of this role I develop and maintain a patient
-                      centric Laravel web application for facilitating patient
-                      treatment and clinical records management.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Laravel</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Next.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>AWS</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Google Analytics</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Tailwind CSS</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Node.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>JavaScript</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>GitHub</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>GitHub Actions</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        February 2022 - present
-                      </span>
-                      <span className="css-i0fbjv">
-                        Freelancer at Fueltronics
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      My neighbor and I work over some weekend hackathons to
-                      build new and interesting solutions for his business, such
-                      as mobile and Laravel apps.
-                    </p>
-                    <p>
-                      Fueltronics is a fuel management solution where the
-                      traditional control system of commonly found fuel pumps
-                      are upgraded to a custom built IoT board. I have worked
-                      with the team to convert the IoT board from an Raspberry
-                      Pi board running the Python pump controller software
-                      locally, to an ESP32 board backed by an Android based
-                      laser scanner device running a custom React Native app.
-                    </p>
-                    <p>
-                      My contribution to the project is to build and maintain
-                      the Laravel backend, API, front-end and also the build the
-                      React Native mobile applications running on the Newland
-                      Android scanner. The solution is already being used in
-                      production at various sites nationally.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Angular</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Tailwind CSS</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Node.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Next.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Artificial Intelligence</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>React Native</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Android</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Arduino</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Raspberry Pi</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Python</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>GitHub</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>GitHub Actions</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Amazon EC2</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Amazon S3</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        October 2021 - June 2024
-                      </span>
-                      <span className="css-i0fbjv">
-                        Senior Full Stack Developer at nuvoteQ
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      As a fullstack developer I worked with project managers
-                      (PMs), other developers and user interface (UI/UX)
-                      designers to develop scalable and secure full-stack
-                      Laravel web applications.
-                    </p>
-                    <p>
-                      My primary duties included designing and developing the
-                      back end of the web applications using PHP, Laravel and
-                      Node.js and MySQL, and translating the front-end Figma
-                      desings into reusable functional front-end components
-                      using tech such as Blade, Livewire, Vue.js and Alpine.js.
-                    </p>
-                    <p>
-                      I was fortunate to have worked on several interesting
-                      projects with a very supportive and talented team, and
-                      closely with the client's marketing and technical teams.
-                      We succeeded in delivering numerous successful public
-                      facing products, some of which was high traffic that
-                      service thousands of daily users.
-                    </p>
-                    <p>
-                      Following Agile principles, tools and technologies like
-                      TDD, JIRA, BitBucket, AWS and Sentry enabled us to deliver
-                      high quality and performant web applications.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Laravel</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Node.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Vue.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Vuex</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Vuetify</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>PHP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Bitbucket</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Jira</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>TDD</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Teamwork</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Amazon EC2</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Amazon S3</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Docker</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Machine Learning</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Artificial Intelligence</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        January 2011 - August 2021
-                      </span>
-                      <span className="css-i0fbjv">
-                        ICT Manager at Interstate Bus Lines
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      As and ICT manager, I was tasked with taking ultimate
-                      responsibility of the ICT team and ICT related
-                      responsibilities in the company. My primary duties
-                      included leading the ICT team to serve the passengers,
-                      users and various stakeholders of the company.
-                    </p>
-                    <p>
-                      As a secondary function to my role, I was tasked with
-                      developing internally used systems and applications used
-                      by the HR, workshop and operations teams, including
-                      employee performance tracking, fleet management and
-                      quality control. Some of the systems was multitenant
-                      applications used not only by Interstate, but also the
-                      various subsidiaries and sister companies to Interstate.
-                    </p>
-                    <p>
-                      I leveraged PHP, CodeIgniter and later Laravel as the
-                      stack for the applications, and later rebuilt most of the
-                      older systems from C#,{" "}
-                      <a href="http://ASP.net" target="_blank">
-                        ASP.net
-                      </a>{" "}
-                      MVC and CodeIgniter to Laravel. Most of the systems is
-                      still in use today and continue to contribute to
-                      Interstate's amazing legacy.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Laravel</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>JavaScript</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>VMWare vSphere</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Azure</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Sage X3</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Active Directory</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        December 2018 - August 2021
-                      </span>
-                      <span className="css-i0fbjv">
-                        Senior Developer at 3 Quarks
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      3 Quarks a local startup company offered a unique medical
-                      practice management solutions, featuring patient clinical
-                      data management and real-time billing integration with
-                      most South African medical schemes.
-                    </p>
-                    <p>
-                      As the principle developer my role included maintaining
-                      the existing PHP and React codebases and developing the
-                      next iteration of the company's core product named Medbar.
-                      I was also responsible for looking after the various
-                      server and hosted systems.
-                    </p>
-                    <p>
-                      During my tenure I worked closely with vendors, healthcare
-                      service providers and pathology laboratories to build a
-                      full fledged multitenant patient centric clinical data
-                      management and realtime billing application. I also worked
-                      closely with the billing and admin team to onboard new
-                      medical practices, patients and migrate existing medical
-                      practices onto the new Medbar platform.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Laravel</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>JavaScript</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>PHP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>MySQL</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Vue.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Vuex</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Node.js</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Bootstrap</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>SOAP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>REST</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>SQL</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>React</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Linux</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Nginx</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        October 2008 - December 2010
-                      </span>
-                      <span className="css-i0fbjv">
-                        Network Administrator at Interstate Bus Lines{" "}
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      In the network administrator role, I was responsible to
-                      oversee all IT related taks of the company, and to improve
-                      efficiency and drive down costs. The company at that time
-                      had several remote and isolated branches with limited
-                      interconnectivity, and I was required to build a small ICT
-                      team to serve the users and sites in all IT related
-                      systems.
-                    </p>
-                    <p>
-                      I was also tasked with coding various internally used
-                      tools and systems to import and collect sales data from
-                      ticket machines installed on each of the busses and ticket
-                      sales offices, and import the data into the CRM systems,
-                      and public facing web apps and websites to serve the
-                      passengers.
-                    </p>
-                    <p>
-                      To improve efficiency and drive down costs, my team and I
-                      piloted a POC to consolidate the company's telephony
-                      services and data network services, by leveraging existing
-                      company infrastructure and high sites to roll out a long
-                      distance wireless data network and replace the legacy
-                      wired telephony services with VoIP telephony services.
-                    </p>
-                    <p>
-                      I was also responsible for developing policies and
-                      procedures related to IT and IT security, and further the
-                      short to mid-term ICT strategy of the company.
-                    </p>
-                    <p>
-                      During my time at the company , my team and I managed to
-                      significantly reduce the company's expenditure on ICT
-                      services, through automating tasks, building various
-                      feedback tools and dashboards, and implementing new
-                      technologies and methods.
-                    </p>
-                    <p>
-                      I also fostered long term relationships with various
-                      suppliers and vendors that enabled the company to procure
-                      hardware and software at very competitive prices from
-                      reputable suppliers and vendors.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>PHP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>CodeIgniter</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>jQuery</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>WordPress</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>C#</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>ASP.NET MVC</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Python</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        January 2005 - September 2008
-                      </span>
-                      <span className="css-i0fbjv">
-                        Senior IT Technician at ITEC
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      Working as an IT technician and team lead, I was tasked
-                      with onsite customer support and building various network
-                      and server solutions for various customers with unique
-                      requirements.
-                    </p>
-                    <p>
-                      During my tenure, I learnt new new skills and gained a lot
-                      of experience in understanding various customer and
-                      business requirements, and designing solutions and systems
-                      to solve the clients unique business requirement. Me and
-                      my built various solutions, including WANs, LANs, servers,
-                      firewalls and other systems.
-                    </p>
-                    <p>
-                      I also maintained an on premise Unix server, hosting the
-                      companies email, web and FTP sever, and employed my coding
-                      abilities to add new features to the system, such as
-                      hosting a private software, common Windows XP and printer
-                      drivers, and tools for our team.
-                    </p>
-                    <p>
-                      Having programming and coding experienced helped me to be
-                      a 10x technician, as I was able to built many tools and
-                      scripts to automate many daily repetitive tasks, such as
-                      Windows server bootup scripts, scripts for mounting remote
-                      drives and configuring user machines automatically at
-                      startup, and numerous little tools to troubleshoot
-                      networks, and even remove malware from infected Windows
-                      machines.
-                    </p>
-                    <p>
-                      I was also the only person among my peers running Linux
-                      (Fedora Core, OpenSuse) as my daily driver, and was
-                      fortunate to leverage my Linux experience to help out my
-                      team and ITEC on numerous occasions.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>PHP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Visual Basic</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>JavaScript</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Drupal</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Joomla</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Microsoft SQL Server</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Active Directory</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>SOAP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>XAMPP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Linux</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Windows Server</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Microsoft IIS</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        January 2005 - September 2008
-                      </span>
-                      <span className="css-i0fbjv">
-                        Business Owner at PHPWEB
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      I started PHPWEB as a side-hustle, doing freelance and
-                      part-time software development and web hosting services,
-                      to supplement my income.
-                    </p>
-                    <p>
-                      Building PHPWEB offered me the opportunity to learn about
-                      finding and selling to customers, and the business side of
-                      software development. I managed to foster long term
-                      relationships with many happy clients and worked on
-                      numerous exciting projects.
-                    </p>
-                    <p>
-                      During this time, I mostly built custom web applications
-                      and websites using PHP and eventually CodeIgniter, but
-                      also deployed many Drupal, Joomla and WordPress sites. I
-                      also built some highly customized and personalized themes
-                      and features.
-                    </p>
-                    <p>
-                      As my full-time responsibilities and commitments
-                      progressed, I was forced to systematically scale down and
-                      hand over projects to other vendors, until I finally
-                      closed PHPWEB down in September 2008.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>PHP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>CodeIgniter</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>JavaScript</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>jQuery</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Joomla</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Drupal</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>WordPress</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Linux</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>REST</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>XML</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">July 2004 - May 2005</span>
-                      <span className="css-i0fbjv">
-                        Technician at Parnis Airport Services
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      Parnis Airport Services a contractor for Airports Company
-                      South Africa (ACSA) was during my tenure there responsible
-                      for building and the upkeep of various industrial
-                      automated machines, such as bagage handling systems,
-                      aviobridges, aircraft ground power units, and other
-                      related systems at Johannesburg International Airport (now
-                      OR Tambo International Airport)
-                    </p>
-                    <p>
-                      As a technician, I was tasked with not only the upkeep and
-                      maintenance of the existing systems, but also helped build
-                      and refactor the systems as and when required. Maintaining
-                      and refactoring industrial control systems requires a good
-                      understanding of electronics and lader logic, the code
-                      that the PLC ran to drive contactors, variable speed
-                      drives, and more. Not only was I maintaining the legacy
-                      and existing aviobridges, but I was also a member of the
-                      team constructing and building new aviobridges that our
-                      team installed at gates C1 to C8 and two others at Cape
-                      Town International Airport, that is still after two
-                      decades in daily use at these airports.
-                    </p>
-                    <p>
-                      To support my role, I automated several tasks, such as
-                      building various tools, including an VB6, MS Access based
-                      inventory management system to replace the Lotus123 based
-                      inventory system that was in use at that time.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>PLC</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>SCADA</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Visual Basic</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Unix</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        January 2003 - June 2004
-                      </span>
-                      <span className="css-i0fbjv">
-                        Warehouse Manager at Wetherleys
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      Working in a leadership role, I was tasked with overseeing
-                      the overall warehouse operations of the branch, including
-                      staff, inventory, fleet, drivers, and logistics.
-                    </p>
-                    <p>
-                      During this time I did not build or code any public facing
-                      products, but built numerous tools and programs to asit me
-                      and our team in our duties, such as an asset tracking
-                      system, staff time and attendance system, and other tools.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Visual Basic</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>VBA</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>ASP</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Microsoft Access</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Microsoft IIS</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>SQL</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        June 2001 - December 2002
-                      </span>
-                      <span className="css-i0fbjv">
-                        Team Supervisor at Parnis Airport Serives
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      Parnis Airport Services a contractor for Airports Company
-                      South Africa (ACSA) was during my tenure there responsible
-                      for building and the upkeep of various industrial
-                      automated machines, such as bagage handling systems,
-                      aviobridges, aircraft ground power units, and other
-                      related systems.
-                    </p>
-                    <p>
-                      I was tasked with leading a team of operators on various
-                      PLC and Scada (ICS) controlled systems, ensuring the
-                      efficient running various airport baggage handling
-                      systems, aviobridges (also known as passenger boarding
-                      bridges), and aircraft ground power units (GPUs).
-                    </p>
-                    <p>
-                      During my tenure I assumed overall responsibility for my
-                      team, our duties, and learnt numerous skills in terms of
-                      human resources management, leadership, and motivation.
-                    </p>
-                    <p>
-                      Having a keen technical interest, I leveraged all the
-                      opportunities presented to me, to up-skill myself and
-                      learn as much as I possibly could about how the various
-                      ICS systems work, the technology behind the PLCs, Scada,
-                      ICS, and Modbus network.
-                    </p>
-                    <p>
-                      To automate and supplement my work performance, I coded
-                      various tools using VB6, HTML, JavaScript
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Visual Basic</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>HTML</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>JavaScript</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="css-b8fj76">
-                  <div className="css-z53l98">
-                    <h3 className="h3 text-xl">
-                      <span className="css-1gvdfhd">
-                        February 2000 - June 2001
-                      </span>
-                      <span className="css-i0fbjv">
-                        Supervisor at Wetherleys
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="css-1fcnapy">
-                    <p>
-                      I was responsible for ensuring that high quality products
-                      reach the customers in an agreed time and professional
-                      manner. I was in charge of the quality control, fleet and
-                      logistics of our branch and supervised a small team of
-                      store staff and delivery drivers.
-                    </p>
-                    <p>
-                      During my tenure I learnt and was exposed to many new
-                      skills and responsibilities, such as time management,
-                      motivation, leadership and taking ownership of tasks and
-                      accountability for the tasks performed by the team you are
-                      leading.
-                    </p>
-                    <p>
-                      I did not do any real programming, but dabbled a bit with
-                      HTML, JavaScript, and automated things for myself to
-                      improve and support my work performance, such as VBA
-                      macros ODBC and forms in Excel.
-                    </p>
-                  </div>
-                  <div className="tech-stack flex flex-row gap-2">
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>Microsoft Excel</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>VBScript</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>HTML</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>JavaScript</span>
-                    </div>
-                    <div className="tech-stack-item flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md">
-                      <span>VBA</span>
-                    </div>
-                  </div>
-                </div>
+            <JobItem
+              title="Senior Fullstack Developer"
+              company="Independant Contractor"
+              location="Remote"
+              startDate="June 2024"
+              endDate="present"
+            >
+              <p>
+                Working fulltime in this role, I assume ownership of all web
+                application development related functions, and work closely with
+                medical professionals to develop new and innovating healthcare
+                products and services.
+              </p>
+              <p>
+                In support of this role I develop and maintain a patient centric
+                Laravel web application for facilitating patient treatment and
+                clinical records management.
+              </p>
+              <TechStack>
+                <TeckStackItem>Laravel</TeckStackItem>
+                <TeckStackItem>Next.js</TeckStackItem>
+                <TeckStackItem>AWS</TeckStackItem>
+                <TeckStackItem>Google Analytics</TeckStackItem>
+                <TeckStackItem>Tailwind CSS</TeckStackItem>
+                <TeckStackItem>Node.js</TeckStackItem>
+                <TeckStackItem>JavaScript</TeckStackItem>
+                <TeckStackItem>GitHub</TeckStackItem>
+                <TeckStackItem>GitHub Actions</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Freelance Fullstack Developer"
+              company="Fueltronics"
+              location="Remote"
+              startDate="February 2022"
+              endDate="present"
+            >
+              <p>
+                My neighbor and I work over some weekend hackathons to build new
+                and interesting solutions for his business, such as mobile and
+                Laravel apps.
+              </p>
+              <p>
+                Fueltronics is a fuel management solution where the traditional
+                control system of commonly found fuel pumps are upgraded to a
+                custom built IoT board. I have worked with the team to convert
+                the IoT board from an Raspberry Pi board running the Python pump
+                controller software locally, to an ESP32 board backed by an
+                Android based laser scanner device running a custom React Native
+                app.
+              </p>
+              <p>
+                My contribution to the project is to build and maintain the
+                Laravel backend, API, front-end and also the build the React
+                Native mobile applications running on the Newland Android
+                scanner. The solution is already being used in production at
+                various sites nationally.
+              </p>
+              <TechStack>
+                <TeckStackItem>Angular</TeckStackItem>
+                <TeckStackItem>Tailwind CSS</TeckStackItem>
+                <TeckStackItem>Node.js</TeckStackItem>
+                <TeckStackItem>Next.js</TeckStackItem>
+                <TeckStackItem>Artificial Intelligence</TeckStackItem>
+                <TeckStackItem>React Native</TeckStackItem>
+                <TeckStackItem>Android</TeckStackItem>
+                <TeckStackItem>Arduino</TeckStackItem>
+                <TeckStackItem>Raspberry Pi</TeckStackItem>
+                <TeckStackItem>Python</TeckStackItem>
+                <TeckStackItem>GitHub</TeckStackItem>
+                <TeckStackItem>GitHub Actions</TeckStackItem>
+                <TeckStackItem>Amazon EC2</TeckStackItem>
+                <TeckStackItem>Amazon S3</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Senior Full Stack Developer"
+              company="nuvoteQ"
+              location="Remote"
+              startDate="October 2021"
+              endDate="June 2024"
+            >
+              <p>
+                As a fullstack developer I worked with project managers (PMs),
+                other developers and user interface (UI/UX) designers to develop
+                scalable and secure full-stack Laravel web applications.
+              </p>
+              <p>
+                My primary duties included designing and developing the back end
+                of the web applications using PHP, Laravel and Node.js and
+                MySQL, and translating the front-end Figma desings into reusable
+                functional front-end components using tech such as Blade,
+                Livewire, Vue.js and Alpine.js.
+              </p>
+              <p>
+                I was fortunate to have worked on several interesting projects
+                with a very supportive and talented team, and closely with the
+                client's marketing and technical teams. We succeeded in
+                delivering numerous successful public facing products, some of
+                which was high traffic that service thousands of daily users.
+              </p>
+              <p>
+                Following Agile principles, tools and technologies like TDD,
+                JIRA, BitBucket, AWS and Sentry enabled us to deliver high
+                quality and performant web applications.
+              </p>
+              <TechStack>
+                <TeckStackItem>Laravel</TeckStackItem>
+                <TeckStackItem>Node.js</TeckStackItem>
+                <TeckStackItem>Vue.js</TeckStackItem>
+                <TeckStackItem>Vuex</TeckStackItem>
+                <TeckStackItem>Vuetify</TeckStackItem>
+                <TeckStackItem>PHP</TeckStackItem>
+                <TeckStackItem>Bitbucket</TeckStackItem>
+                <TeckStackItem>Jira</TeckStackItem>
+                <TeckStackItem>TDD</TeckStackItem>
+                <TeckStackItem>Teamwork</TeckStackItem>
+                <TeckStackItem>Amazon EC2</TeckStackItem>
+                <TeckStackItem>Amazon S3</TeckStackItem>
+                <TeckStackItem>Docker</TeckStackItem>
+                <TeckStackItem>Machine Learning</TeckStackItem>
+                <TeckStackItem>Artificial Intelligence</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="ICT Manager"
+              company="Interstate Bus Lines"
+              location="Bloemfontein, South Africa"
+              startDate="January 2011"
+              endDate="August 2021"
+            >
+              <p>
+                As and ICT manager, I was tasked with taking ultimate
+                responsibility of the ICT team and ICT related responsibilities
+                in the company. My primary duties included leading the ICT team
+                to serve the passengers, users and various stakeholders of the
+                company.
+              </p>
+              <p>
+                As a secondary function to my role, I was tasked with developing
+                internally used systems and applications used by the HR,
+                workshop and operations teams, including employee performance
+                tracking, fleet management and quality control. Some of the
+                systems was multitenant applications used not only by
+                Interstate, but also the various subsidiaries and sister
+                companies to Interstate.
+              </p>
+              <p>
+                I leveraged PHP, CodeIgniter and later Laravel as the stack for
+                the applications, and later rebuilt most of the older systems
+                from C#,{" "}
+                <a href="http://ASP.net" target="_blank">
+                  ASP.net
+                </a>{" "}
+                MVC and CodeIgniter to Laravel. Most of the systems is still in
+                use today and continue to contribute to Interstate's amazing
+                legacy.
+              </p>
+              <TechStack>
+                <TeckStackItem>Laravel</TeckStackItem>
+                <TeckStackItem>JavaScript</TeckStackItem>
+                <TeckStackItem>VMWare vSphere</TeckStackItem>
+                <TeckStackItem>Azure</TeckStackItem>
+                <TeckStackItem>Sage X3</TeckStackItem>
+                <TeckStackItem>Active Directory</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Senior Developer"
+              company="3 Quarks"
+              location="Bloemfontein, South Africa, Remote"
+              startDate="December 2018"
+              endDate="August 2021"
+            >
+              <p>
+                3 Quarks a local startup company offered a unique medical
+                practice management solutions, featuring patient clinical data
+                management and real-time billing integration with most South
+                African medical schemes.
+              </p>
+              <p>
+                As the principle developer my role included maintaining the
+                existing PHP and React codebases and developing the next
+                iteration of the company's core product named Medbar. I was also
+                responsible for looking after the various server and hosted
+                systems.
+              </p>
+              <p>
+                During my tenure I worked closely with vendors, healthcare
+                service providers and pathology laboratories to build a full
+                fledged multitenant patient centric clinical data management and
+                realtime billing application. I also worked closely with the
+                billing and admin team to onboard new medical practices,
+                patients and migrate existing medical practices onto the new
+                Medbar platform.
+              </p>
+              <TechStack>
+                <TeckStackItem>Laravel</TeckStackItem>
+                <TeckStackItem>JavaScript</TeckStackItem>
+                <TeckStackItem>PHP</TeckStackItem>
+                <TeckStackItem>MySQL</TeckStackItem>
+                <TeckStackItem>Vue.js</TeckStackItem>
+                <TeckStackItem>Vuex</TeckStackItem>
+                <TeckStackItem>Node.js</TeckStackItem>
+                <TeckStackItem>Bootstrap</TeckStackItem>
+                <TeckStackItem>SOAP</TeckStackItem>
+                <TeckStackItem>REST</TeckStackItem>
+                <TeckStackItem>SQL</TeckStackItem>
+                <TeckStackItem>React</TeckStackItem>
+                <TeckStackItem>Linux</TeckStackItem>
+                <TeckStackItem>Nginx</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Network Administrator"
+              company="Interstate Bus Lines"
+              location="Bloemfontein, South Africa"
+              startDate="October 2008"
+              endDate="December 2010"
+            >
+              <div className="css-z53l98">
+                <h3 className="h3 text-xl">
+                  <span className="css-1gvdfhd">
+                    October 2008 - December 2010
+                  </span>
+                  <span className="css-i0fbjv">
+                    Network Administrator at Interstate Bus Lines{" "}
+                  </span>
+                </h3>
               </div>
-            </div>
+              <p>
+                In the network administrator role, I was responsible to oversee
+                all IT related taks of the company, and to improve efficiency
+                and drive down costs. The company at that time had several
+                remote and isolated branches with limited interconnectivity, and
+                I was required to build a small ICT team to serve the users and
+                sites in all IT related systems.
+              </p>
+              <p>
+                I was also tasked with coding various internally used tools and
+                systems to import and collect sales data from ticket machines
+                installed on each of the busses and ticket sales offices, and
+                import the data into the CRM systems, and public facing web apps
+                and websites to serve the passengers.
+              </p>
+              <p>
+                To improve efficiency and drive down costs, my team and I
+                piloted a POC to consolidate the company's telephony services
+                and data network services, by leveraging existing company
+                infrastructure and high sites to roll out a long distance
+                wireless data network and replace the legacy wired telephony
+                services with VoIP telephony services.
+              </p>
+              <p>
+                I was also responsible for developing policies and procedures
+                related to IT and IT security, and further the short to mid-term
+                ICT strategy of the company.
+              </p>
+              <p>
+                During my time at the company , my team and I managed to
+                significantly reduce the company's expenditure on ICT services,
+                through automating tasks, building various feedback tools and
+                dashboards, and implementing new technologies and methods.
+              </p>
+              <p>
+                I also fostered long term relationships with various suppliers
+                and vendors that enabled the company to procure hardware and
+                software at very competitive prices from reputable suppliers and
+                vendors.
+              </p>
+              <TechStack>
+                <TeckStackItem>PHP</TeckStackItem>
+                <TeckStackItem>CodeIgniter</TeckStackItem>
+                <TeckStackItem>jQuery</TeckStackItem>
+                <TeckStackItem>WordPress</TeckStackItem>
+                <TeckStackItem>C#</TeckStackItem>
+                <TeckStackItem>ASP.NET MVC</TeckStackItem>
+                <TeckStackItem>Python</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Senior IT Technician"
+              company="ITEC"
+              location="Bloemfontein, South Africa"
+              startDate="January 2005"
+              endDate="September 2008"
+            >
+              <p>
+                Working as an IT technician and team lead, I was tasked with
+                onsite customer support and building various network and server
+                solutions for various customers with unique requirements.
+              </p>
+              <p>
+                During my tenure, I learnt new new skills and gained a lot of
+                experience in understanding various customer and business
+                requirements, and designing solutions and systems to solve the
+                clients unique business requirement. Me and my built various
+                solutions, including WANs, LANs, servers, firewalls and other
+                systems.
+              </p>
+              <p>
+                I also maintained an on premise Unix server, hosting the
+                companies email, web and FTP sever, and employed my coding
+                abilities to add new features to the system, such as hosting a
+                private software, common Windows XP and printer drivers, and
+                tools for our team.
+              </p>
+              <p>
+                Having programming and coding experienced helped me to be a 10x
+                technician, as I was able to built many tools and scripts to
+                automate many daily repetitive tasks, such as Windows server
+                bootup scripts, scripts for mounting remote drives and
+                configuring user machines automatically at startup, and numerous
+                little tools to troubleshoot networks, and even remove malware
+                from infected Windows machines.
+              </p>
+              <p>
+                I was also the only person among my peers running Linux (Fedora
+                Core, OpenSuse) as my daily driver, and was fortunate to
+                leverage my Linux experience to help out my team and ITEC on
+                numerous occasions.
+              </p>
+              <TechStack>
+                <TeckStackItem>PHP</TeckStackItem>
+                <TeckStackItem>Visual Basic</TeckStackItem>
+                <TeckStackItem>JavaScript</TeckStackItem>
+                <TeckStackItem>Drupal</TeckStackItem>
+                <TeckStackItem>Joomla</TeckStackItem>
+                <TeckStackItem>Microsoft SQL Server</TeckStackItem>
+                <TeckStackItem>Active Directory</TeckStackItem>
+                <TeckStackItem>SOAP</TeckStackItem>
+                <TeckStackItem>XAMPP</TeckStackItem>
+                <TeckStackItem>Linux</TeckStackItem>
+                <TeckStackItem>Windows Server</TeckStackItem>
+                <TeckStackItem>Microsoft IIS</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Business Owner"
+              company="PHPWEB"
+              location="Bloemfontein, South Africa"
+              startDate="January 2005"
+              endDate="September 2008"
+            >
+              <p>
+                I started PHPWEB as a side-hustle, doing freelance and part-time
+                software development and web hosting services, to supplement my
+                income.
+              </p>
+              <p>
+                Building PHPWEB offered me the opportunity to learn about
+                finding and selling to customers, and the business side of
+                software development. I managed to foster long term
+                relationships with many happy clients and worked on numerous
+                exciting projects.
+              </p>
+              <p>
+                During this time, I mostly built custom web applications and
+                websites using PHP and eventually CodeIgniter, but also deployed
+                many Drupal, Joomla and WordPress sites. I also built some
+                highly customized and personalized themes and features.
+              </p>
+              <p>
+                As my full-time responsibilities and commitments progressed, I
+                was forced to systematically scale down and hand over projects
+                to other vendors, until I finally closed PHPWEB down in
+                September 2008.
+              </p>
+              <TechStack>
+                <TeckStackItem>PHP</TeckStackItem>
+                <TeckStackItem>CodeIgniter</TeckStackItem>
+                <TeckStackItem>JavaScript</TeckStackItem>
+                <TeckStackItem>jQuery</TeckStackItem>
+                <TeckStackItem>Joomla</TeckStackItem>
+                <TeckStackItem>Drupal</TeckStackItem>
+                <TeckStackItem>WordPress</TeckStackItem>
+                <TeckStackItem>Linux</TeckStackItem>
+                <TeckStackItem>REST</TeckStackItem>
+                <TeckStackItem>XML</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Technician"
+              company="Parnis Airport Services"
+              location="Johannesburg International Airport"
+              startDate="July 2004"
+              endDate="May 2005"
+            >
+              <p>
+                Parnis Airport Services a contractor for Airports Company South
+                Africa (ACSA) was during my tenure there responsible for
+                building and the upkeep of various industrial automated
+                machines, such as bagage handling systems, aviobridges, aircraft
+                ground power units, and other related systems at Johannesburg
+                International Airport (now OR Tambo International Airport)
+              </p>
+              <p>
+                As a technician, I was tasked with not only the upkeep and
+                maintenance of the existing systems, but also helped build and
+                refactor the systems as and when required. Maintaining and
+                refactoring industrial control systems requires a good
+                understanding of electronics and lader logic, the code that the
+                PLC ran to drive contactors, variable speed drives, and more.
+                Not only was I maintaining the legacy and existing aviobridges,
+                but I was also a member of the team constructing and building
+                new aviobridges that our team installed at gates C1 to C8 and
+                two others at Cape Town International Airport, that is still
+                after two decades in daily use at these airports.
+              </p>
+              <p>
+                To support my role, I automated several tasks, such as building
+                various tools, including an VB6, MS Access based inventory
+                management system to replace the Lotus123 based inventory system
+                that was in use at that time.
+              </p>
+              <TechStack>
+                <TeckStackItem>PLC</TeckStackItem>
+                <TeckStackItem>SCADA</TeckStackItem>
+                <TeckStackItem>Visual Basic</TeckStackItem>
+                <TeckStackItem>Unix</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Warehouse Manager"
+              company="Wetherleys"
+              location="Bloemfontein, South Africa"
+              startDate="January 2003"
+              endDate="June 2004"
+            >
+              <p>
+                Working in a leadership role, I was tasked with overseeing the
+                overall warehouse operations of the branch, including staff,
+                inventory, fleet, drivers, and logistics.
+              </p>
+              <p>
+                During this time I did not build or code any public facing
+                products, but built numerous tools and programs to asit me and
+                our team in our duties, such as an asset tracking system, staff
+                time and attendance system, and other tools.
+              </p>
+              <TechStack>
+                <TeckStackItem>Visual Basic</TeckStackItem>
+                <TeckStackItem>VBA</TeckStackItem>
+                <TeckStackItem>ASP</TeckStackItem>
+                <TeckStackItem>Microsoft Access</TeckStackItem>
+                <TeckStackItem>Microsoft IIS</TeckStackItem>
+                <TeckStackItem>SQL</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Team Supervisor"
+              company="Parnis Airport Serives"
+              location="Joahnnesburg International Airport"
+              startDate="June 2001"
+              endDate="December 2002"
+            >
+              <p>
+                Parnis Airport Services a contractor for Airports Company South
+                Africa (ACSA) was during my tenure there responsible for
+                building and the upkeep of various industrial automated
+                machines, such as bagage handling systems, aviobridges, aircraft
+                ground power units, and other related systems.
+              </p>
+              <p>
+                I was tasked with leading a team of operators on various PLC and
+                Scada (ICS) controlled systems, ensuring the efficient running
+                various airport baggage handling systems, aviobridges (also
+                known as passenger boarding bridges), and aircraft ground power
+                units (GPUs).
+              </p>
+              <p>
+                During my tenure I assumed overall responsibility for my team,
+                our duties, and learnt numerous skills in terms of human
+                resources management, leadership, and motivation.
+              </p>
+              <p>
+                Having a keen technical interest, I leveraged all the
+                opportunities presented to me, to up-skill myself and learn as
+                much as I possibly could about how the various ICS systems work,
+                the technology behind the PLCs, Scada, ICS, and Modbus network.
+              </p>
+              <p>
+                To automate and supplement my work performance, I coded various
+                tools using VB6, HTML, JavaScript
+              </p>
+              <TechStack>
+                <TeckStackItem>Visual Basic</TeckStackItem>
+                <TeckStackItem>HTML</TeckStackItem>
+                <TeckStackItem>JavaScript</TeckStackItem>
+              </TechStack>
+            </JobItem>
+            <JobItem
+              title="Supervisor"
+              company="Wetherleys"
+              location="Bloemfontein, South Africa"
+              startDate="February 2000"
+              endDate="June 2001"
+            >
+              <p>
+                I was responsible for ensuring that high quality products reach
+                the customers in an agreed time and professional manner. I was
+                in charge of the quality control, fleet and logistics of our
+                branch and supervised a small team of store staff and delivery
+                drivers.
+              </p>
+              <p>
+                During my tenure I learnt and was exposed to many new skills and
+                responsibilities, such as time management, motivation,
+                leadership and taking ownership of tasks and accountability for
+                the tasks performed by the team you are leading.
+              </p>
+              <p>
+                I did not do any real programming, but dabbled a bit with HTML,
+                JavaScript, and automated things for myself to improve and
+                support my work performance, such as VBA macros ODBC and forms
+                in Excel.
+              </p>
+              <TechStack>
+                <TeckStackItem>Microsoft Excel</TeckStackItem>
+                <TeckStackItem>VBScript</TeckStackItem>
+                <TeckStackItem>HTML</TeckStackItem>
+                <TeckStackItem>JavaScript</TeckStackItem>
+                <TeckStackItem>VBA</TeckStackItem>
+              </TechStack>
+            </JobItem>
           </section>
           <section
             className="section bg-gray-800 mb-5 p-5 rounded-md"
