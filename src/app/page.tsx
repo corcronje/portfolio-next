@@ -615,7 +615,7 @@ export default function Home() {
             <JobItem
               title="Senior Developer"
               company="3 Quarks"
-              location="Bloemfontein, South Africa, Remote"
+              location="Remote"
               startDate="December 2018"
               endDate="August 2021"
             >
@@ -665,16 +665,6 @@ export default function Home() {
               startDate="October 2008"
               endDate="December 2010"
             >
-              <div className="css-z53l98">
-                <h3 className="h3 text-xl">
-                  <span className="css-1gvdfhd">
-                    October 2008 - December 2010
-                  </span>
-                  <span className="css-i0fbjv">
-                    Network Administrator at Interstate Bus Lines{" "}
-                  </span>
-                </h3>
-              </div>
               <p>
                 In the network administrator role, I was responsible to oversee
                 all IT related taks of the company, and to improve efficiency
@@ -829,7 +819,7 @@ export default function Home() {
             <JobItem
               title="Technician"
               company="Parnis Airport Services"
-              location="Johannesburg International Airport"
+              location="Kempton Park, South Africa"
               startDate="July 2004"
               endDate="May 2005"
             >

@@ -2,7 +2,7 @@ import React from 'react'
 
 function TechStack({children}) {
   return (
-    <ul className='flex flex-row gap-2 mt-2'>
+    <ul className='flex flex-row flex-wrap gap-2 mt-2'>
         {children}
     </ul>
   )
