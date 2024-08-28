@@ -1,7 +1,7 @@
 import JobItem from "@/components/JobItem";
 import Section from "@/components/Section";
 import TechStack from "@/components/TechStack";
-import TeckStackItem from "@/components/TeckStackItem";
+import TechStackItem from "@/components/TechStackItem";
 import Image from "next/image";
 
 export default function Home() {
@@ -426,15 +426,15 @@ export default function Home() {
                 clinical records management.
               </p>
               <TechStack>
-                <TeckStackItem>Laravel</TeckStackItem>
-                <TeckStackItem>Next.js</TeckStackItem>
-                <TeckStackItem>AWS</TeckStackItem>
-                <TeckStackItem>Google Analytics</TeckStackItem>
-                <TeckStackItem>Tailwind CSS</TeckStackItem>
-                <TeckStackItem>Node.js</TeckStackItem>
-                <TeckStackItem>JavaScript</TeckStackItem>
-                <TeckStackItem>GitHub</TeckStackItem>
-                <TeckStackItem>GitHub Actions</TeckStackItem>
+                <TechStackItem>Laravel</TechStackItem>
+                <TechStackItem>Next.js</TechStackItem>
+                <TechStackItem>AWS</TechStackItem>
+                <TechStackItem>Google Analytics</TechStackItem>
+                <TechStackItem>Tailwind CSS</TechStackItem>
+                <TechStackItem>Node.js</TechStackItem>
+                <TechStackItem>JavaScript</TechStackItem>
+                <TechStackItem>GitHub</TechStackItem>
+                <TechStackItem>GitHub Actions</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -466,20 +466,20 @@ export default function Home() {
                 various sites nationally.
               </p>
               <TechStack>
-                <TeckStackItem>Angular</TeckStackItem>
-                <TeckStackItem>Tailwind CSS</TeckStackItem>
-                <TeckStackItem>Node.js</TeckStackItem>
-                <TeckStackItem>Next.js</TeckStackItem>
-                <TeckStackItem>Artificial Intelligence</TeckStackItem>
-                <TeckStackItem>React Native</TeckStackItem>
-                <TeckStackItem>Android</TeckStackItem>
-                <TeckStackItem>Arduino</TeckStackItem>
-                <TeckStackItem>Raspberry Pi</TeckStackItem>
-                <TeckStackItem>Python</TeckStackItem>
-                <TeckStackItem>GitHub</TeckStackItem>
-                <TeckStackItem>GitHub Actions</TeckStackItem>
-                <TeckStackItem>Amazon EC2</TeckStackItem>
-                <TeckStackItem>Amazon S3</TeckStackItem>
+                <TechStackItem>Angular</TechStackItem>
+                <TechStackItem>Tailwind CSS</TechStackItem>
+                <TechStackItem>Node.js</TechStackItem>
+                <TechStackItem>Next.js</TechStackItem>
+                <TechStackItem>Artificial Intelligence</TechStackItem>
+                <TechStackItem>React Native</TechStackItem>
+                <TechStackItem>Android</TechStackItem>
+                <TechStackItem>Arduino</TechStackItem>
+                <TechStackItem>Raspberry Pi</TechStackItem>
+                <TechStackItem>Python</TechStackItem>
+                <TechStackItem>GitHub</TechStackItem>
+                <TechStackItem>GitHub Actions</TechStackItem>
+                <TechStackItem>Amazon EC2</TechStackItem>
+                <TechStackItem>Amazon S3</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -514,21 +514,21 @@ export default function Home() {
                 quality and performant web applications.
               </p>
               <TechStack>
-                <TeckStackItem>Laravel</TeckStackItem>
-                <TeckStackItem>Node.js</TeckStackItem>
-                <TeckStackItem>Vue.js</TeckStackItem>
-                <TeckStackItem>Vuex</TeckStackItem>
-                <TeckStackItem>Vuetify</TeckStackItem>
-                <TeckStackItem>PHP</TeckStackItem>
-                <TeckStackItem>Bitbucket</TeckStackItem>
-                <TeckStackItem>Jira</TeckStackItem>
-                <TeckStackItem>TDD</TeckStackItem>
-                <TeckStackItem>Teamwork</TeckStackItem>
-                <TeckStackItem>Amazon EC2</TeckStackItem>
-                <TeckStackItem>Amazon S3</TeckStackItem>
-                <TeckStackItem>Docker</TeckStackItem>
-                <TeckStackItem>Machine Learning</TeckStackItem>
-                <TeckStackItem>Artificial Intelligence</TeckStackItem>
+                <TechStackItem>Laravel</TechStackItem>
+                <TechStackItem>Node.js</TechStackItem>
+                <TechStackItem>Vue.js</TechStackItem>
+                <TechStackItem>Vuex</TechStackItem>
+                <TechStackItem>Vuetify</TechStackItem>
+                <TechStackItem>PHP</TechStackItem>
+                <TechStackItem>Bitbucket</TechStackItem>
+                <TechStackItem>Jira</TechStackItem>
+                <TechStackItem>TDD</TechStackItem>
+                <TechStackItem>Teamwork</TechStackItem>
+                <TechStackItem>Amazon EC2</TechStackItem>
+                <TechStackItem>Amazon S3</TechStackItem>
+                <TechStackItem>Docker</TechStackItem>
+                <TechStackItem>Machine Learning</TechStackItem>
+                <TechStackItem>Artificial Intelligence</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -566,12 +566,12 @@ export default function Home() {
                 legacy.
               </p>
               <TechStack>
-                <TeckStackItem>Laravel</TeckStackItem>
-                <TeckStackItem>JavaScript</TeckStackItem>
-                <TeckStackItem>VMWare vSphere</TeckStackItem>
-                <TeckStackItem>Azure</TeckStackItem>
-                <TeckStackItem>Sage X3</TeckStackItem>
-                <TeckStackItem>Active Directory</TeckStackItem>
+                <TechStackItem>Laravel</TechStackItem>
+                <TechStackItem>JavaScript</TechStackItem>
+                <TechStackItem>VMWare vSphere</TechStackItem>
+                <TechStackItem>Azure</TechStackItem>
+                <TechStackItem>Sage X3</TechStackItem>
+                <TechStackItem>Active Directory</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -604,20 +604,20 @@ export default function Home() {
                 Medbar platform.
               </p>
               <TechStack>
-                <TeckStackItem>Laravel</TeckStackItem>
-                <TeckStackItem>JavaScript</TeckStackItem>
-                <TeckStackItem>PHP</TeckStackItem>
-                <TeckStackItem>MySQL</TeckStackItem>
-                <TeckStackItem>Vue.js</TeckStackItem>
-                <TeckStackItem>Vuex</TeckStackItem>
-                <TeckStackItem>Node.js</TeckStackItem>
-                <TeckStackItem>Bootstrap</TeckStackItem>
-                <TeckStackItem>SOAP</TeckStackItem>
-                <TeckStackItem>REST</TeckStackItem>
-                <TeckStackItem>SQL</TeckStackItem>
-                <TeckStackItem>React</TeckStackItem>
-                <TeckStackItem>Linux</TeckStackItem>
-                <TeckStackItem>Nginx</TeckStackItem>
+                <TechStackItem>Laravel</TechStackItem>
+                <TechStackItem>JavaScript</TechStackItem>
+                <TechStackItem>PHP</TechStackItem>
+                <TechStackItem>MySQL</TechStackItem>
+                <TechStackItem>Vue.js</TechStackItem>
+                <TechStackItem>Vuex</TechStackItem>
+                <TechStackItem>Node.js</TechStackItem>
+                <TechStackItem>Bootstrap</TechStackItem>
+                <TechStackItem>SOAP</TechStackItem>
+                <TechStackItem>REST</TechStackItem>
+                <TechStackItem>SQL</TechStackItem>
+                <TechStackItem>React</TechStackItem>
+                <TechStackItem>Linux</TechStackItem>
+                <TechStackItem>Nginx</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -668,13 +668,13 @@ export default function Home() {
                 vendors.
               </p>
               <TechStack>
-                <TeckStackItem>PHP</TeckStackItem>
-                <TeckStackItem>CodeIgniter</TeckStackItem>
-                <TeckStackItem>jQuery</TeckStackItem>
-                <TeckStackItem>WordPress</TeckStackItem>
-                <TeckStackItem>C#</TeckStackItem>
-                <TeckStackItem>ASP.NET MVC</TeckStackItem>
-                <TeckStackItem>Python</TeckStackItem>
+                <TechStackItem>PHP</TechStackItem>
+                <TechStackItem>CodeIgniter</TechStackItem>
+                <TechStackItem>jQuery</TechStackItem>
+                <TechStackItem>WordPress</TechStackItem>
+                <TechStackItem>C#</TechStackItem>
+                <TechStackItem>ASP.NET MVC</TechStackItem>
+                <TechStackItem>Python</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -720,18 +720,18 @@ export default function Home() {
                 numerous occasions.
               </p>
               <TechStack>
-                <TeckStackItem>PHP</TeckStackItem>
-                <TeckStackItem>Visual Basic</TeckStackItem>
-                <TeckStackItem>JavaScript</TeckStackItem>
-                <TeckStackItem>Drupal</TeckStackItem>
-                <TeckStackItem>Joomla</TeckStackItem>
-                <TeckStackItem>Microsoft SQL Server</TeckStackItem>
-                <TeckStackItem>Active Directory</TeckStackItem>
-                <TeckStackItem>SOAP</TeckStackItem>
-                <TeckStackItem>XAMPP</TeckStackItem>
-                <TeckStackItem>Linux</TeckStackItem>
-                <TeckStackItem>Windows Server</TeckStackItem>
-                <TeckStackItem>Microsoft IIS</TeckStackItem>
+                <TechStackItem>PHP</TechStackItem>
+                <TechStackItem>Visual Basic</TechStackItem>
+                <TechStackItem>JavaScript</TechStackItem>
+                <TechStackItem>Drupal</TechStackItem>
+                <TechStackItem>Joomla</TechStackItem>
+                <TechStackItem>Microsoft SQL Server</TechStackItem>
+                <TechStackItem>Active Directory</TechStackItem>
+                <TechStackItem>SOAP</TechStackItem>
+                <TechStackItem>XAMPP</TechStackItem>
+                <TechStackItem>Linux</TechStackItem>
+                <TechStackItem>Windows Server</TechStackItem>
+                <TechStackItem>Microsoft IIS</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -766,16 +766,16 @@ export default function Home() {
                 September 2008.
               </p>
               <TechStack>
-                <TeckStackItem>PHP</TeckStackItem>
-                <TeckStackItem>CodeIgniter</TeckStackItem>
-                <TeckStackItem>JavaScript</TeckStackItem>
-                <TeckStackItem>jQuery</TeckStackItem>
-                <TeckStackItem>Joomla</TeckStackItem>
-                <TeckStackItem>Drupal</TeckStackItem>
-                <TeckStackItem>WordPress</TeckStackItem>
-                <TeckStackItem>Linux</TeckStackItem>
-                <TeckStackItem>REST</TeckStackItem>
-                <TeckStackItem>XML</TeckStackItem>
+                <TechStackItem>PHP</TechStackItem>
+                <TechStackItem>CodeIgniter</TechStackItem>
+                <TechStackItem>JavaScript</TechStackItem>
+                <TechStackItem>jQuery</TechStackItem>
+                <TechStackItem>Joomla</TechStackItem>
+                <TechStackItem>Drupal</TechStackItem>
+                <TechStackItem>WordPress</TechStackItem>
+                <TechStackItem>Linux</TechStackItem>
+                <TechStackItem>REST</TechStackItem>
+                <TechStackItem>XML</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -813,10 +813,10 @@ export default function Home() {
                 that was in use at that time.
               </p>
               <TechStack>
-                <TeckStackItem>PLC</TeckStackItem>
-                <TeckStackItem>SCADA</TeckStackItem>
-                <TeckStackItem>Visual Basic</TeckStackItem>
-                <TeckStackItem>Unix</TeckStackItem>
+                <TechStackItem>PLC</TechStackItem>
+                <TechStackItem>SCADA</TechStackItem>
+                <TechStackItem>Visual Basic</TechStackItem>
+                <TechStackItem>Unix</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -838,12 +838,12 @@ export default function Home() {
                 time and attendance system, and other tools.
               </p>
               <TechStack>
-                <TeckStackItem>Visual Basic</TeckStackItem>
-                <TeckStackItem>VBA</TeckStackItem>
-                <TeckStackItem>ASP</TeckStackItem>
-                <TeckStackItem>Microsoft Access</TeckStackItem>
-                <TeckStackItem>Microsoft IIS</TeckStackItem>
-                <TeckStackItem>SQL</TeckStackItem>
+                <TechStackItem>Visual Basic</TechStackItem>
+                <TechStackItem>VBA</TechStackItem>
+                <TechStackItem>ASP</TechStackItem>
+                <TechStackItem>Microsoft Access</TechStackItem>
+                <TechStackItem>Microsoft IIS</TechStackItem>
+                <TechStackItem>SQL</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -883,9 +883,9 @@ export default function Home() {
                 tools using VB6, HTML, JavaScript
               </p>
               <TechStack>
-                <TeckStackItem>Visual Basic</TeckStackItem>
-                <TeckStackItem>HTML</TeckStackItem>
-                <TeckStackItem>JavaScript</TeckStackItem>
+                <TechStackItem>Visual Basic</TechStackItem>
+                <TechStackItem>HTML</TechStackItem>
+                <TechStackItem>JavaScript</TechStackItem>
               </TechStack>
             </JobItem>
             <JobItem
@@ -915,11 +915,11 @@ export default function Home() {
                 in Excel.
               </p>
               <TechStack>
-                <TeckStackItem>Microsoft Excel</TeckStackItem>
-                <TeckStackItem>VBScript</TeckStackItem>
-                <TeckStackItem>HTML</TeckStackItem>
-                <TeckStackItem>JavaScript</TeckStackItem>
-                <TeckStackItem>VBA</TeckStackItem>
+                <TechStackItem>Microsoft Excel</TechStackItem>
+                <TechStackItem>VBScript</TechStackItem>
+                <TechStackItem>HTML</TechStackItem>
+                <TechStackItem>JavaScript</TechStackItem>
+                <TechStackItem>VBA</TechStackItem>
               </TechStack>
             </JobItem>
           </Section>
@@ -1127,36 +1127,36 @@ export default function Home() {
           </Section>
           <Section title="Top Skills">
             <TechStack>
-              <TeckStackItem>
+              <TechStackItem>
                 <span>PHP</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>Laravel</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>MySQL</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>Git</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>Docker</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>Linux</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>Vue.js</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>HTML</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>CSS</span>
-              </TeckStackItem>
-              <TeckStackItem>
+              </TechStackItem>
+              <TechStackItem>
                 <span>CSS</span>
-              </TeckStackItem>
+              </TechStackItem>
             </TechStack>
           </Section>
           <Section title="Preffred roles">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TeckStackItem({children}) {
+function TechStackItem({children}) {
   return (
     <li className='flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md'>
         {children}
@@ -8,4 +8,4 @@ function TeckStackItem({children}) {
   )
 }
 
-export default TeckStackItem
+export default TechStackItem
