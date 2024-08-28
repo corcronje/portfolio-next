@@ -1127,36 +1127,16 @@ export default function Home() {
           </Section>
           <Section title="Top Skills">
             <TechStack>
-              <TechStackItem>
-                <span>PHP</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>Laravel</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>MySQL</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>Git</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>Docker</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>Linux</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>Vue.js</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>HTML</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>CSS</span>
-              </TechStackItem>
-              <TechStackItem>
-                <span>CSS</span>
-              </TechStackItem>
+              <TechStackItem>PHP</TechStackItem>
+              <TechStackItem>Laravel</TechStackItem>
+              <TechStackItem>MySQL</TechStackItem>
+              <TechStackItem>Git</TechStackItem>
+              <TechStackItem>Docker</TechStackItem>
+              <TechStackItem>Linux</TechStackItem>
+              <TechStackItem>Vue.js</TechStackItem>
+              <TechStackItem>HTML</TechStackItem>
+              <TechStackItem>CSS</TechStackItem>
+              <TechStackItem>CSS</TechStackItem>
             </TechStack>
           </Section>
           <Section title="Preffred roles">
