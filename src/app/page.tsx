@@ -1,4 +1,5 @@
 import JobItem from "@/components/JobItem";
+import Section from "@/components/Section";
 import TechStack from "@/components/TechStack";
 import TeckStackItem from "@/components/TeckStackItem";
 import Image from "next/image";
@@ -8,18 +9,12 @@ export default function Home() {
     <main className="css-1fionf7">
       <div className="md:flex flex-row">
         <aside className="p-5">
-          <section className="bg-gray-800 mb-5 p-5 rounded-md">
+          <Section title="Aside">
             <h3 className="text-xl">Aside</h3>
-          </section>
+          </Section>
         </aside>
         <main className="p-5">
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="personal-information"
-          >
-            <div className="css-49usba">
-              <h2 className="text-2xl">Personal information</h2>
-            </div>
+          <Section title="Personal Information">
             <div className="css-1hqeloq">
               <div className="css-bbfmoj">
                 <div>
@@ -90,11 +85,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="preferred-salary"
-          >
+          </Section>
+          <Section title="Preferred employment type and salary" >
             <div className="css-49usba">
               <span className="css-15n8w3z">
                 <svg
@@ -207,11 +199,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="workplace-policies"
-          >
+          </Section>
+          <Section title="Workplace policies" >
             <div className="css-49usba">
               <span className="css-15n8w3z">
                 <svg
@@ -264,10 +253,8 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="work-authorisation"
+          </Section>
+          <Section title="Work authorisation"
           >
             <div className="css-49usba">
               <span className="css-15n8w3z">
@@ -337,7 +324,7 @@ export default function Home() {
                     </a>
                   </div>
                 </header>
-                <section>
+                <Section>
                   <ul className="css-1k6przt">
                     <li className="css-1okm2ol">
                       <div className="css-dlc41b">
@@ -361,14 +348,11 @@ export default function Home() {
                       </div>
                     </li>
                   </ul>
-                </section>
+                </Section>
               </div>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="ideal-job"
-          >
+          </Section>
+          <Section title="Ideal next job">
             <div className="css-49usba">
               <span className="css-15n8w3z">
                 <svg
@@ -422,34 +406,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="work-history"
-          >
-            <div className="css-49usba">
-              <span className="css-15n8w3z">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  fill="none"
-                  viewBox="0 0 1024 1024"
-                  role="img"
-                  font-size="14"
-                  color="#FFF"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    d="M358.859 829.399a42.614 42.614 0 0 1-30.677-13.035L136.907 618.22c-16.384-16.939-15.893-43.968 1.067-60.331 16.917-16.341 43.968-15.915 60.309 1.067l160.469 166.229 432.277-450.581c16.299-17.003 43.328-17.557 60.331-1.237 17.003 16.299 17.557 43.328 1.259 60.331L389.643 816.279a42.707 42.707 0 0 1-30.72 13.12z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </span>
-              <h2 className="text-2xl">Work experience</h2>
-            </div>
+          </Section>
+          <Section title="Work History">
             <JobItem
               title="Senior Fullstack Developer"
               company="Independant Contractor"
@@ -965,34 +923,8 @@ export default function Home() {
                 <TeckStackItem>VBA</TeckStackItem>
               </TechStack>
             </JobItem>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="education"
-          >
-            <div className="css-49usba">
-              <span className="css-15n8w3z">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  fill="none"
-                  viewBox="0 0 1024 1024"
-                  role="img"
-                  font-size="14"
-                  color="#FFF"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    d="M358.859 829.399a42.614 42.614 0 0 1-30.677-13.035L136.907 618.22c-16.384-16.939-15.893-43.968 1.067-60.331 16.917-16.341 43.968-15.915 60.309 1.067l160.469 166.229 432.277-450.581c16.299-17.003 43.328-17.557 60.331-1.237 17.003 16.299 17.557 43.328 1.259 60.331L389.643 816.279a42.707 42.707 0 0 1-30.72 13.12z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </span>
-              <h2 className="text-2xl">Education</h2>
-            </div>
+          </Section>
+          <Section title="Education">
             <div className="css-1hqeloq">
               <section>
                 <div>
@@ -1193,11 +1125,8 @@ export default function Home() {
                 </div>
               </section>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="top-skills"
-          >
+          </Section>
+          <Section title="Top Skills">
             <div className="css-49usba">
               <span className="css-15n8w3z">
                 <svg
@@ -1255,34 +1184,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="preferred-roles"
-          >
-            <div className="css-49usba">
-              <span className="css-15n8w3z">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  fill="none"
-                  viewBox="0 0 1024 1024"
-                  role="img"
-                  font-size="14"
-                  color="#FFF"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    d="M358.859 829.399a42.614 42.614 0 0 1-30.677-13.035L136.907 618.22c-16.384-16.939-15.893-43.968 1.067-60.331 16.917-16.341 43.968-15.915 60.309 1.067l160.469 166.229 432.277-450.581c16.299-17.003 43.328-17.557 60.331-1.237 17.003 16.299 17.557 43.328 1.259 60.331L389.643 816.279a42.707 42.707 0 0 1-30.72 13.12z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </span>
-              <h2 className="text-2xl">Desired roles</h2>
-            </div>
+          </Section>
+          <Section title="Preffred roles">
             <div className="css-1hqeloq">
               <div>
                 <div className="css-xensfu">
@@ -1351,14 +1254,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="online-profiles"
-          >
-            <div className="css-49usba">
-              <h2 className="text-2xl">Online profiles (optional)</h2>
-            </div>
+          </Section>
+          <Section title="Online profiles">
             <div className="css-1hqeloq">
               <dl className="css-ti75j2">
                 <dt className="css-v8sk6z">
@@ -1495,14 +1392,8 @@ export default function Home() {
                 <dd className="css-13wnjmb">https://phpweb.co.za</dd>
               </dl>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="about-me"
-          >
-            <div className="css-49usba">
-              <h2 className="text-2xl">About (optional)</h2>
-            </div>
+          </Section>
+          <Section title="About me">
             <div className="css-1hqeloq">
               <div className="css-p6tyc6">
                 <p>
@@ -1535,14 +1426,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </section>
-          <section
-            className="section bg-gray-800 mb-5 p-5 rounded-md"
-            id="projects"
-          >
-            <div className="css-49usba">
-              <h2 className="text-2xl">Projects (optional)</h2>
-            </div>
+          </Section>
+          <Section title="Projects">
             <div className="css-1hqeloq">
               <section>
                 <p className="css-bcwoxj">
@@ -2134,7 +2019,7 @@ export default function Home() {
                 </form>
               </section>
             </div>
-          </section>
+          </Section>
         </main>
       </div>
     </main>
