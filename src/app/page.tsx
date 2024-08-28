@@ -86,7 +86,7 @@ export default function Home() {
               </div>
             </div>
           </Section>
-          <Section title="Preferred employment type and salary" >
+          <Section title="Preferred employment type and salary">
             <div className="css-49usba">
               <span className="css-15n8w3z">
                 <svg
@@ -200,7 +200,7 @@ export default function Home() {
               </div>
             </div>
           </Section>
-          <Section title="Workplace policies" >
+          <Section title="Workplace policies">
             <div className="css-49usba">
               <span className="css-15n8w3z">
                 <svg
@@ -254,8 +254,7 @@ export default function Home() {
               </ul>
             </div>
           </Section>
-          <Section title="Work authorisation"
-          >
+          <Section title="Work authorisation">
             <div className="css-49usba">
               <span className="css-15n8w3z">
                 <svg
@@ -1127,63 +1126,38 @@ export default function Home() {
             </div>
           </Section>
           <Section title="Top Skills">
-            <div className="css-49usba">
-              <span className="css-15n8w3z">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  fill="none"
-                  viewBox="0 0 1024 1024"
-                  role="img"
-                  font-size="14"
-                  color="#FFF"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    d="M358.859 829.399a42.614 42.614 0 0 1-30.677-13.035L136.907 618.22c-16.384-16.939-15.893-43.968 1.067-60.331 16.917-16.341 43.968-15.915 60.309 1.067l160.469 166.229 432.277-450.581c16.299-17.003 43.328-17.557 60.331-1.237 17.003 16.299 17.557 43.328 1.259 60.331L389.643 816.279a42.707 42.707 0 0 1-30.72 13.12z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </span>
-              <h2 className="text-2xl">Top skills</h2>
-            </div>
-            <div className="css-1hqeloq">
-              <div className="css-10bqzvn">
-                <div className="css-1shs4d5">
-                  <span>PHP</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>Laravel</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>MySQL</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>Git</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>Docker</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>Linux</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>Vue.js</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>HTML</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>CSS</span>
-                </div>
-                <div className="css-1shs4d5">
-                  <span>CSS</span>
-                </div>
-              </div>
-            </div>
+            <TechStack>
+              <TeckStackItem>
+                <span>PHP</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>Laravel</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>MySQL</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>Git</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>Docker</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>Linux</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>Vue.js</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>HTML</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>CSS</span>
+              </TeckStackItem>
+              <TeckStackItem>
+                <span>CSS</span>
+              </TeckStackItem>
+            </TechStack>
           </Section>
           <Section title="Preffred roles">
             <div className="css-1hqeloq">
