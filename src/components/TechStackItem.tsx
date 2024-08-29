@@ -2,7 +2,7 @@ import React from 'react'
 
 function TechStackItem({children}) {
   return (
-    <li className='flex flex-col justify-center items-center text-center p-2 bg-blue-600 text-gray-100 rounded-md'>
+    <li className='flex flex-col justify-center items-center text-center px-3 py-1 bg-indigo-400 text-gray-100 rounded-md'>
         {children}
     </li>
   )
