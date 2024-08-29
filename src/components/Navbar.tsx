@@ -1,8 +1,20 @@
+'use client';
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faTwitter, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
+  const toggleMenu = (e) => {
+    e.preventDefault();
+    const nav = document.getElementById("nav");
+    nav.classList.toggle("hidden");
+  }
+
   return (
     <div className="flex flex-col lg:flex-row justify-between items-center p-4">
       <div className="flex w-full lg:w-auto items-center justify-between">
@@ -13,7 +25,7 @@ function Navbar() {
           <span className="text-slate-500">.dev</span>
         </a>
         <div className="block lg:hidden">
-          <button id="astronav-menu" aria-label="Toggle Menu">
+          <button onClick={toggleMenu} id="astronav-menu" aria-label="Toggle Menu">
             <svg
               fill="currentColor"
               className="w-4 h-4 text-slate-500"
@@ -38,7 +50,10 @@ function Navbar() {
           </button>
         </div>
       </div>
-      <nav className="hidden absolute lg:relative dark:bg-black bg-white p-4 lg:p-0 mt-10 w-full lg:w-auto lg:flex lg:m-0 border-b border-t border-1 border-slate-500 lg:border-none lg:shadow-none shadow-md">
+      <nav
+        id="nav"
+        className="hidden absolute lg:relative dark:bg-black bg-white p-4 lg:p-0 mt-10 w-full lg:w-auto lg:flex lg:m-0 border-b border-t border-1 border-slate-500 lg:border-none lg:shadow-none shadow-md"
+      >
         <ul className="w-full flex flex-col lg:flex-row gap-2">
           <li className="w-full">
             <a
