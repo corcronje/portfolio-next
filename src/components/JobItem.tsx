@@ -1,22 +1,28 @@
-import React from 'react'
+import React from "react";
+import TechStack from "./TechStack";
+import TechStackItem from "./TechStackItem";
 
-function JobItem({title, company, location, startDate, endDate, children}) {
+function JobItem({
+  title,
+  company,
+  location,
+  startDate,
+  endDate,
+  children,
+}) {
   return (
-    <article className="mb-5">
-      <div className='text-sm text-orange-500'>
+    <article className="mt-5 pt-5 border-t border-slate-200">
+      <h6>
         {startDate} - {endDate}
-      </div>
-
-      <h3 className="text-2xl">{title}</h3>
-
-      <div className="flex flex-row justify-between items-center text-gray-500">
+      </h6>
+      <h3>{title}</h3>
+      <div className="flex flex-row justify-between items-center text-slate-400 font-bold mb-2">
         <small>{location}</small>
         <small>{company}</small>
       </div>
-
-      <div className="mt-2">{children}</div>
+      {children}
     </article>
   );
 }
 
-export default JobItem
+export default JobItem;

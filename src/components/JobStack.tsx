@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-function JobStack() {
+function JobStack({ children }) {
   return (
-    <div>JobStack</div>
-  )
+    <div>{children}</div>
+  );
 }
 
-export default JobStack
+export default JobStack;
