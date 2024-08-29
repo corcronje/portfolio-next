@@ -16,7 +16,7 @@ function Navbar() {
           <button id="astronav-menu" aria-label="Toggle Menu">
             <svg
               fill="currentColor"
-              className="w-4 h-4 text-gray-800"
+              className="w-4 h-4 text-slate-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -24,13 +24,13 @@ function Navbar() {
             >
               <title>Toggle Menu</title>
               <path
-                className="astronav-close-icon astronav-toggle hidden"
+                className="hidden"
                 fill-rule="evenodd"
                 clip-rule="evenodd"
                 d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.829 4.828 4.828z"
               ></path>
               <path
-                className="astronav-open-icon astronav-toggle"
+                className=""
                 fill-rule="evenodd"
                 d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
               ></path>
@@ -38,17 +38,20 @@ function Navbar() {
           </button>
         </div>
       </div>
-      <nav className="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
-        <ul className="flex flex-row gap-2">
-          <li>
-            <a href="#about" className="px-3 py-1 text-indigo-400 hover:text-indigo-600">
+      <nav className="hidden absolute lg:relative dark:bg-black bg-white p-4 lg:p-0 mt-10 w-full lg:w-auto lg:flex lg:m-0 border-b border-t border-1 border-slate-500 lg:border-none lg:shadow-none shadow-md">
+        <ul className="w-full flex flex-col lg:flex-row gap-2">
+          <li className="w-full">
+            <a
+              href="#about"
+              className="block lg:flex items-center justify-center px-3 py-1 text-indigo-400 hover:text-indigo-600"
+            >
               About
             </a>
           </li>
-          <li>
+          <li className="w-full">
             <a
               href="#employment-history"
-              className="px-3 py-1 text-indigo-400 hover:text-indigo-600"
+              className="block lg:flex items-center justify-center px-3 py-1 text-indigo-400 hover:text-indigo-600"
             >
               Work
             </a>
@@ -56,7 +59,7 @@ function Navbar() {
           <li>
             <a
               href="#education"
-              className="px-3 py-1 text-indigo-400 hover:text-indigo-600"
+              className="block lg:flex items-center justify-center px-3 py-1 text-indigo-400 hover:text-indigo-600"
             >
               Education
             </a>
@@ -64,7 +67,7 @@ function Navbar() {
           <li>
             <a
               href="#projects"
-              className="px-3 py-1 text-indigo-400 hover:text-indigo-600"
+              className="block lg:flex items-center justify-center px-3 py-1 text-indigo-400 hover:text-indigo-600"
             >
               Projects
             </a>
@@ -72,7 +75,7 @@ function Navbar() {
           <li>
             <a
               href="#projects"
-              className="rounded px-3 py-1 bg-indigo-400 text-white hover:bg-indigo-600 hover:text-white"
+              className="block lg:flex items-center justify-center rounded px-3 py-1 bg-indigo-400 text-white hover:bg-indigo-600 hover:text-white"
             >
               <FontAwesomeIcon icon={faGithub} className="fa-fw" /> Github
             </a>
@@ -81,7 +84,7 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/cor-cronje-developer"
               target="_blank"
-              className="rounded px-3 py-1 bg-indigo-400 text-white hover:bg-indigo-600 hover:text-white"
+              className="block lg:flex items-center justify-center rounded px-3 py-1 bg-indigo-400 text-white hover:bg-indigo-600 hover:text-white"
             >
               <FontAwesomeIcon icon={faLinkedin} className="fa-fw" /> LinkedIn
             </a>
@@ -90,9 +93,10 @@ function Navbar() {
             <a
               href="https://x.com/corcronje"
               target="_blank"
-              className="rounded py-1 px-3 bg-indigo-400 text-white hover:bg-indigo-600 hover:text-white"
+              className="block lg:flex items-center justify-center rounded py-1 px-3 bg-indigo-400 text-white hover:bg-indigo-600 hover:text-white"
             >
-              <FontAwesomeIcon icon={faXTwitter} className="fa-fw" />.com
+              <FontAwesomeIcon icon={faXTwitter} className="fa-fw" />
+              .com
             </a>
           </li>
         </ul>

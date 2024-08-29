@@ -8,6 +8,7 @@ import JobStack from "@/components/JobStack";
 import ProjectStack from "@/components/ProjectStack";
 import ProjectItem from "@/components/ProjectItem";
 import Hero from "@/components/Hero";
+import SkillStack from "@/components/SkillStack";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
           kids.
         </p>
       </Section>
+      <SkillStack />
       <Section title="Employment History" id="employment-history">
         <JobStack>
           <JobItem
