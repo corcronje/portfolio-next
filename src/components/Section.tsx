@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Section({title, children}) {
+function Section({title, id, children}) {
   return (
     <>
-      <section className="container mx-auto py-[5rem]">
+      <section id={id} className="container mx-auto py-[5rem]">
         <h2>
           {title}
         </h2>
