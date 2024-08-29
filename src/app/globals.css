@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-  @apply text-4xl font-bold text-slate-900 dark:text-slate-500 mb-4;
+  @apply text-4xl font-bold text-slate-900 dark:text-slate-500;
 }
 
 h3 {
@@ -57,7 +57,7 @@ h4 {
 }
 
 h5{
-  @apply text-lg font-bold text-slate-900 dark:text-slate-500 mb-1;
+  @apply text-lg font-bold text-slate-900 dark:text-slate-500;
 }
 
 h6 {
