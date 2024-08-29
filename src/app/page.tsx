@@ -13,41 +13,36 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Section title="About me">
-        <div className="css-1hqeloq">
-          <div className="css-p6tyc6">
-            <p>
-              Having always had an interest in all things technical and it was
-              natural for me to gravitate towards computers and coding. I have
-              since 2001 coded in various programming languages, but have
-              primarily applied myself towards coding robust PHP, and later the
-              Laravel applications.
-            </p>
-            <p>
-              I currently work as a senior fullstack developer contractor for a
-              very young startup, and previously held various positions as a
-              fullstack developer and team lead.
-            </p>
-            <p>
-              I have strong technical experience and can able to code in various
-              programming languages and can apply or transition between
-              programming languages and frameworks when required and in support
-              of the company or team. I have leveraged my coding abilities to
-              build numerous products and solutions, and pride myself in not
-              only being a problem solver that can work diligently on a problem
-              towards finding and or building a solution, but also being an
-              awesome and fun team member.
-            </p>
-            <p>
-              I enjoy keeping myself in a good physical condition through
-              exercise and participating in mountain biking, trail running and
-              challenging workouts, and further value spending quality time with
-              my wife and kids.
-            </p>
-          </div>
-        </div>
+      <Section title="About me" id="about">
+        <p>
+          Having always had an interest in all things technical and it was
+          natural for me to gravitate towards computers and coding. I have since
+          2001 coded in various programming languages, but have primarily
+          applied myself towards coding robust PHP, and later the Laravel
+          applications.
+        </p>
+        <p>
+          I currently work as a senior fullstack developer contractor for a very
+          young startup, and previously held various positions as a fullstack
+          developer and team lead.
+        </p>
+        <p>
+          I have strong technical experience and can able to code in various
+          programming languages and can apply or transition between programming
+          languages and frameworks when required and in support of the company
+          or team. I have leveraged my coding abilities to build numerous
+          products and solutions, and pride myself in not only being a problem
+          solver that can work diligently on a problem towards finding and or
+          building a solution, but also being an awesome and fun team member.
+        </p>
+        <p>
+          I enjoy keeping myself in a good physical condition through exercise
+          and participating in mountain biking, trail running and challenging
+          workouts, and further value spending quality time with my wife and
+          kids.
+        </p>
       </Section>
-      <Section title="Employment History">
+      <Section title="Employment History" id="employment-history">
         <JobStack>
           <JobItem
             title="Senior Fullstack Developer"
@@ -557,7 +552,7 @@ export default function Home() {
           </JobItem>
         </JobStack>
       </Section>
-      <Section title="Education">
+      <Section title="Education" id="education">
         <EducationStack>
           <EducationItem
             title="Bachelor of Management Leadership"
@@ -666,7 +661,7 @@ export default function Home() {
           />
         </EducationStack>
       </Section>
-      <Section title="Top Skills">
+      <Section title="Top Skills" id="skills">
         <TechStack>
           <TechStackItem>PHP</TechStackItem>
           <TechStackItem>Laravel</TechStackItem>
@@ -680,215 +675,7 @@ export default function Home() {
           <TechStackItem>CSS</TechStackItem>
         </TechStack>
       </Section>
-      <Section title="Preffred roles">
-        <div className="css-1hqeloq">
-          <div>
-            <div className="css-xensfu">
-              <article className="css-e6ykud">
-                <input type="text" className="css-18qf62c" />
-                <div className="css-1ooikkj">
-                  <span className="css-157u2ty">
-                    Total years of work experience
-                    <span className="css-satcqh"></span>
-                  </span>
-                  <span className="css-1iqkohf">10-15 years</span>
-                </div>
-              </article>
-            </div>
-            <h3 className="css-1mfaan0">Desired roles</h3>
-            <div className="css-1pj0ccy">
-              <p>
-                Add the roles that best represent the type of positions you'd
-                like companies to approach you for. We recommend adding 1–5
-                preferred roles.
-              </p>
-            </div>
-            <div className="css-1ing1z8">
-              <article className="css-1attiz6">
-                <input type="text" className="css-18qf62c" />
-                <div className="css-1ooikkj">
-                  <span className="css-157u2ty">
-                    Backend engineer<span className="css-satcqh"></span>
-                  </span>
-                  <span className="css-1iqkohf">10-15 years</span>
-                </div>
-              </article>
-            </div>
-            <div className="css-1ing1z8">
-              <article className="css-1attiz6">
-                <input type="text" className="css-18qf62c" />
-                <div className="css-1ooikkj">
-                  <span className="css-157u2ty">
-                    Engineering lead<span className="css-satcqh"></span>
-                  </span>
-                  <span className="css-1iqkohf">10-15 years</span>
-                </div>
-              </article>
-            </div>
-            <div className="css-1ing1z8">
-              <article className="css-1attiz6">
-                <input type="text" className="css-18qf62c" />
-                <div className="css-1ooikkj">
-                  <span className="css-157u2ty">
-                    Frontend engineer<span className="css-satcqh"></span>
-                  </span>
-                  <span className="css-1iqkohf">10-15 years</span>
-                </div>
-              </article>
-            </div>
-            <div className="css-1ing1z8">
-              <article className="css-1attiz6">
-                <input type="text" className="css-18qf62c" />
-                <div className="css-1ooikkj">
-                  <span className="css-157u2ty">
-                    Full stack engineer<span className="css-satcqh"></span>
-                  </span>
-                  <span className="css-1iqkohf">10-15 years</span>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </Section>
-      <Section title="Online profiles">
-        <div className="css-1hqeloq">
-          <dl className="css-ti75j2">
-            <dt className="css-v8sk6z">
-              <span className="css-17h2rbq">
-                <span className="css-5qsn5m">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
-                    fill="none"
-                    viewBox="0 0 1024 1024"
-                    role="img"
-                    color="#A6ACAF"
-                    font-size="16"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                      d="m811.503 478.91-1.856 6.827c-1.835 6.763-4.075 13.077-6.4 19.243l-2.667 6.699c-29.973 70.187-91.477 96.341-190.635 107.264 32.107 21.589 41.365 48.683 41.365 121.984 0 73.323-.917 83.285-.747 100.053.363 27.691 38.336 40.96 36.949 49.835-1.408 8.896-31.808 7.445-46.08 2.219-40.277-14.912-36.245-50.688-36.245-50.688l-1.28-98.133s2.731-52.715-15.595-52.715V852.01c0 34.901 23.061 45.419 23.061 58.411 0 22.08-41.92-2.048-54.827-16-19.563-21.035-17.408-65.621-16.939-100.885.469-34.091-.277-108.608-.277-108.608l-13.269.341s5.376 162.773-7.061 192.384c-16.192 38.037-64.96 51.243-64.96 33.835 0-11.691 12.053-8 18.688-34.112 5.611-22.208 3.776-188.181 3.776-188.181s-15.637 9.877-15.637 40.96c0 14.165-.32 95.509-.32 119.616 0 30.464-40.576 47.744-60.053 47.744-9.877 0-22.101-.533-22.101-6.08 0-14.059 36.992-22.315 36.992-51.605 0-25.344-.469-90.645-.469-90.645s-18.688 3.392-45.355 3.392c-67.115 0-88.32-45.632-98.453-71.211-13.163-33.344-30.251-48.939-48.32-61.547-11.179-7.659-13.653-16.661-.789-19.221 59.392-11.968 74.539 71.829 114.389 85.163 28.181 9.557 64.64 5.483 82.795-7.083 2.411-25.536 19.691-47.744 34.155-59.392-101.013-10.304-160.917-47.744-191.808-107.925l-3.392-6.677c-2.944-6.208-5.504-12.48-7.829-19.072l-2.304-6.784c-9.728-30.571-14.016-65.557-14.016-104.64 0-69.291 20.181-95.509 47.381-132.331-20.8-78.912 7.467-133.035 7.467-133.035s43.691-9.728 126.315 53.355c44.843-20.352 164.245-22.059 220.651-4.48 34.624-24.491 98.048-59.093 123.733-49.344 6.848 11.819 21.803 46.549 8.917 122.645 8.768 16.811 53.845 52.331 54.08 152.896-.747 37.163-4.395 68.459-11.029 95.019z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </span>
-              </span>
-              <span className="css-1loguyt">Github</span>
-            </dt>
-            <dd className="css-13wnjmb">https://github.com/corcronje</dd>
-            <dt className="css-v8sk6z">
-              <span className="css-17h2rbq">
-                <span className="css-5qsn5m">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
-                    fill="none"
-                    viewBox="0 0 1024 1024"
-                    role="img"
-                    color="#A6ACAF"
-                    font-size="16"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                      d="M917.333 573.108v267.426H752.726V591.019c0-62.68-23.809-105.457-83.391-105.457-45.484 0-72.551 28.828-84.459 56.715-4.342 9.969-5.46 23.845-5.46 37.801v260.457H414.753s2.218-422.597 0-466.381H579.4v66.108c-.334.494-.768 1.028-1.082 1.507h1.082v-1.507c21.875-31.733 60.941-77.064 148.384-77.064 108.335-.002 189.55 66.658 189.55 209.912zM242.509 149.333c-56.331 0-93.176 34.8-93.176 80.564 0 44.766 35.779 80.623 90.99 80.623h1.1c57.422 0 93.133-35.85 93.133-80.623-1.082-45.764-35.711-80.564-92.047-80.564m-83.396 691.2h164.6V374.152h-164.6z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </span>
-              </span>
-              <span className="css-1loguyt">Linkedin</span>
-            </dt>
-            <dd className="css-13wnjmb">
-              https://www.linkedin.com/in/cor-cronje-developer
-            </dd>
-            <dt className="css-v8sk6z">
-              <span className="css-17h2rbq">
-                <span className="css-5qsn5m">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
-                    fill="none"
-                    viewBox="0 0 1024 1024"
-                    role="img"
-                    color="#A6ACAF"
-                    font-size="16"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                      d="m742.17 656.779-19.584 115.413c0 54.421-94.891 98.539-211.947 98.539s-211.925-44.117-211.925-98.539l-20.672-121.728-.725-4.203c28.864 41.301 122.389 71.573 233.323 71.573 110.997 0 204.544-30.293 233.387-71.637l-1.856 10.581zm65.792-387.542c0-54.443-133.12-98.581-297.323-98.581s-297.301 44.139-297.301 98.581l54.464 320.853c23.339 44.8 123.2 78.485 242.837 78.485 120.256 0 220.288-34.069 242.965-79.189zM513.284 605.835c-53.76 0-97.365-43.093-97.365-96.256s43.605-96.256 97.365-96.256 97.344 43.093 97.344 96.256-43.584 96.256-97.344 96.256m-2.645-298.987c-108.971 0-197.312-18.944-197.312-42.304s88.341-42.325 197.312-42.325c108.971 0 197.333 18.965 197.333 42.325s-88.363 42.304-197.333 42.304m53.323 202.733c0 27.669-22.677 50.112-50.688 50.112-27.989 0-50.688-22.443-50.688-50.112s22.699-50.112 50.688-50.112c28.011 0 50.688 22.443 50.688 50.112"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </span>
-              </span>
-              <span className="css-1loguyt">Bitbucket</span>
-            </dt>
-            <dd className="css-13wnjmb">https://bitbucket.org/cronjecor</dd>
-            <dt className="css-v8sk6z">
-              <span className="css-17h2rbq">
-                <span className="css-5qsn5m">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
-                    fill="none"
-                    viewBox="0 0 1024 1024"
-                    role="img"
-                    color="#A6ACAF"
-                    font-size="16"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                      d="M114.484 64.074c-13.593-.707-25.491 3.652-35.405 12.999s-14.936 21.114-14.936 34.852v63.897c0 25.348 19.463 46.296 44.81 47.855 371.617 22.375 668.865 319.622 691.239 691.238 1.559 25.347 22.635 45.09 48.126 44.809h63.622c13.736 0 25.508-5.02 34.85-14.933 9.345-9.769 13.709-21.945 12.999-35.681C934.442 453.934 569.796 89.429 114.481 64.082zm1.382 281.306c-13.881-1.132-26.313 2.961-36.513 12.449s-15.216 21.387-15.216 35.405v63.899c0 24.785 18.644 45.308 43.428 47.573 217.816 20.535 391.334 193.772 411.867 411.588 2.267 24.784 22.792 43.703 47.574 43.703h63.899c14.02 0 25.917-5.294 35.405-15.49 9.345-10.196 13.582-22.632 12.449-36.513-24.927-299.247-263.504-537.693-562.895-562.615zm79.387 351.845c-72.478.096-131.171 58.906-131.111 131.389-.06 72.478 58.633 131.294 131.111 131.39a131.283 131.283 0 0 0 131.386-131.386 131.28 131.28 0 0 0-131.386-131.385z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </span>
-              </span>
-              <span className="css-1loguyt">Blog</span>
-            </dt>
-            <dd className="css-13wnjmb">https://phpweb.co.za/blog</dd>
-            <dt className="css-v8sk6z">
-              <span className="css-17h2rbq">
-                <span className="css-5qsn5m">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
-                    fill="none"
-                    viewBox="0 0 1024 1024"
-                    role="img"
-                    color="#A6ACAF"
-                    font-size="16"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                      d="M858.929 547.242 728.468 677.63c-5.077 5.139-11.879 7.739-18.617 7.739s-13.547-2.605-18.681-7.739c-10.344-10.282-10.344-26.962 0-37.303l127.126-127.126L691.17 386.075c-10.344-10.282-10.344-26.962 0-37.37 10.344-10.282 27.026-10.282 37.303 0l130.461 130.461c18.754 18.821 18.754 49.312 0 68.068zm-222.012-180.11L433.926 685.368c-5.077 7.878-13.616 12.148-22.284 12.148-4.87 0-9.804-1.331-14.215-4.14-12.273-7.811-15.878-24.152-8.001-36.368l203.056-318.304c7.811-12.348 24.152-15.817 36.368-8.076 12.273 7.878 15.878 24.152 8.076 36.501zM332.898 640.326c10.282 10.344 10.282 27.026 0 37.303-5.206 5.139-11.942 7.739-18.681 7.739-6.802 0-13.472-2.605-18.617-7.739L165.212 547.241c-18.821-18.754-18.821-49.25 0-68.068L295.6 348.712c10.344-10.282 26.962-10.282 37.303 0 10.282 10.405 10.282 27.095 0 37.37L205.777 513.208l127.126 127.126zm582.217-528.032H108.886c-39.173 0-70.934 31.832-70.934 70.934v657.483c0 39.235 31.761 70.996 70.934 70.996h806.229c39.235 0 70.934-31.761 70.934-70.996V183.228c0-39.102-31.695-70.934-70.934-70.934"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </span>
-              </span>
-              <span className="css-1loguyt">Personal</span>
-            </dt>
-            <dd className="css-13wnjmb">https://phpweb.co.za</dd>
-          </dl>
-        </div>
-      </Section>
-      <Section title="Projects">
+      <Section title="Projects" id="projects">
         <ProjectStack>
           <ProjectItem title="Interstate Bus Lines">
             <p>
