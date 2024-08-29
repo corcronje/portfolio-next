@@ -8,8 +8,7 @@ function Hero() {
       <div className="p-4 order-2 lg:order-1">
         <h1>Build, ship and scale fast ...</h1>
         <p className="text-lg mt-4 text-slate-600 max-w-xl">
-          With almost two decades of experience, I can help you choose the right
-          technolgy stack, build and ship your product faster.
+          With almost two decades of experience, I build and ship high quality scalable web applications faster.
         </p>
         <div className="mt-6 flex flex-col sm:flex-row gap-3">
           <a
