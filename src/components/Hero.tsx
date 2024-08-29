@@ -15,7 +15,7 @@ function Hero() {
           <a
             href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
             target="_blank"
-            className="flex justify-center items-center bg-black text-white px-4 py-2 rounded-md border-2 border-black hover:bg-indigo-600 hover:text-white hover:border-indigo-600"
+            className="flex justify-center items-center bg-black dark:bg-indigo-500 text-white px-4 py-2 rounded-md border-2 border-black dark:border-indigo-500 hover:bg-indigo-600 hover:text-white hover:border-indigo-600"
           >
             Next.js
           </a>
@@ -23,7 +23,7 @@ function Hero() {
             href="https://github.com/surjithctly/astroship"
             rel="noopener"
             target="_blank"
-            className="flex justify-center items-center px-4 py-2 bg-white rounded-md text-indigo-500 border-2 border-indigo-400 hover:bg-indigo-600 hover:text-white hover:border-indigo-600"
+            className="flex justify-center items-center px-4 py-2 bg-white rounded-md text-indigo-500 border-2 border-indigo-400 dark:border-white hover:bg-indigo-600 hover:text-white hover:border-indigo-600"
           >
             Laravel
           </a>
