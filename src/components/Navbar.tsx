@@ -5,7 +5,7 @@ function Navbar() {
     <div className="flex flex-col lg:flex-row justify-between items-center p-4">
       <div className="flex w-full lg:w-auto items-center justify-between">
         <a href="/" className="text-lg">
-          <span className="font-bold text-slate-800">cronje</span>
+          <span className="font-bold text-slate-800 dark:text-indigo-400">cronje</span>
           <span className="text-slate-500">.dev</span>
         </a>
         <div className="block lg:hidden">
