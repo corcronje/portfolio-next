@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TechStack({children}) {
+function TechStack({children} : {children: React.ReactNode}) {
   return (
     <>
       <small className="w-full text-slate-400 text-xs font-bold">

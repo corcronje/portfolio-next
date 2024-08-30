@@ -1,17 +1,17 @@
 'use client';
-import React from "react";
+import React, { MouseEventHandler } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
-  faTwitter,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
-  const toggleMenu = (e) => {
+  const toggleMenu = (e: any) => {
     e.preventDefault();
     const nav = document.getElementById("nav");
+    if (!nav) return
     nav.classList.toggle("hidden");
   }
 

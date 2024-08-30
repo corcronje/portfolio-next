@@ -1,6 +1,5 @@
 import React from "react";
-import TechStack from "./TechStack";
-import TechStackItem from "./TechStackItem";
+import { JobItemType } from "@/types/types";
 
 function JobItem({
   title,
@@ -9,7 +8,7 @@ function JobItem({
   startDate,
   endDate,
   children,
-}) {
+} : JobItemType) {
   return (
     <article className="mt-5 pt-5 border-t border-slate-200">
       <h6>

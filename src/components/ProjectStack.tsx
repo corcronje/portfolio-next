@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectStack({children}) {
+function ProjectStack({children} : {children: React.ReactNode}) {
   return (
     <div className='container mx-auto'>
         {children}

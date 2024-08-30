@@ -1,6 +1,7 @@
 import React from 'react'
+import { EducationItemType } from '@/types/types';
 
-function EducationItem({title, institution, location, startDate, endDate}) {
+function EducationItem({title, institution, location, startDate, endDate} : EducationItemType) {
   return (
     <article className="mb-5  mt-5 pt-5 border-t border-slate-200">
       <h6>
