@@ -12,6 +12,15 @@ const exo = Exo_2({ weight: "400", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Fullstack Developer | Cor Cronje",
   description: "Build, ship and scale fast.",
+  icons: {
+    icon: "/favicon-32x32.png",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+    other: {
+      rel: "apple-touch-icon",
+      url: "/apple-touch-icon.png",
+    },
+  },
 };
 
 export default function RootLayout({
