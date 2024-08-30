@@ -36,12 +36,6 @@ export default function Home() {
           solver that can work diligently on a problem towards finding and or
           building a solution, but also being an awesome and fun team member.
         </p>
-        <p>
-          I enjoy keeping myself in a good physical condition through exercise
-          and participating in mountain biking, trail running and challenging
-          workouts, and further value spending quality time with my wife and
-          kids.
-        </p>
       </Section>
       <SkillStack />
       <Section title="Employment History" id="employment-history">
