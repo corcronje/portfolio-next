@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { MouseEventHandler } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,9 +11,9 @@ function Navbar() {
   const toggleMenu = (e: any) => {
     e.preventDefault();
     const nav = document.getElementById("nav");
-    if (!nav) return
+    if (!nav) return;
     nav.classList.toggle("hidden");
-  }
+  };
 
   return (
     <div className="flex flex-col lg:flex-row justify-between items-center p-4">
@@ -25,7 +25,11 @@ function Navbar() {
           <span className="text-slate-500">.dev</span>
         </a>
         <div className="block lg:hidden">
-          <button onClick={toggleMenu} id="astronav-menu" aria-label="Toggle Menu">
+          <button
+            onClick={toggleMenu}
+            id="astronav-menu"
+            aria-label="Toggle Menu"
+          >
             <svg
               fill="currentColor"
               className="w-4 h-4 text-slate-500"
@@ -89,7 +93,7 @@ function Navbar() {
           </li>
           <li>
             <a
-              href="#projects"
+              href="https://github.com/corcronje"
               className="block lg:flex items-center justify-center rounded px-3 py-1 bg-indigo-400 text-white hover:bg-indigo-600 hover:text-white"
             >
               <FontAwesomeIcon icon={faGithub} className="fa-fw" /> Github
