@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import ScrollProgress from "@/components/ScrollProgress";
 config.autoAddCss = false;
 
 const exo = Exo_2({ weight: "400", subsets: ["latin"] });
@@ -31,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={exo.className}>
+        <ScrollProgress />
         <header>
           <Navbar />
         </header>
